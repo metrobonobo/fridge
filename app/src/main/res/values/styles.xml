@@ -1,0 +1,39 @@
+<resources>
+    <!-- 控件离屏幕两边距离-->
+    <style  name="background_lrmargin">
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginRight">80dp</item>
+    </style>
+
+    <!-- edit控件离屏幕两边距离+距离上个控件距离-->
+    <style  name="background_lrmarginson"  parent="background_lrmargin">
+        <item name="android:layout_marginTop">40px</item>
+    </style>
+
+    <!-- edit控件离屏幕两边距离+距离上个控件距离-->
+    <style  name="background_lrmarginss"  parent="background_lrmargin">
+        <item name="android:layout_marginTop">10px</item>
+    </style>
+
+    <!--按钮 控件离屏幕两边距离+距离上个控件距离-->
+    <style  name="background_lrmarginson1"  parent="background_lrmargin">
+        <item name="android:layout_marginTop">80px</item>
+    </style>
+
+    <!-- 控件离屏幕两边距离-->
+    <style  name="lrmargin">
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:layout_marginRight">80dp</item>
+    </style>
+
+    <!-- edit控件离屏幕两边距离+距离上个控件距离-->
+    <style  name="lrmarginss"  parent="lrmargin">
+        <item name="android:layout_marginTop">10px</item>
+    </style>
+
+    <style name="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
